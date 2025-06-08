@@ -1,0 +1,10 @@
+--------- Reading data ---------
+Read data from data/random-euclidean-64-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 64
+Dataset topk: 100
+>>> Time to read binary file: 0.562 ms
+--------- Creating index ---------
+Using SSE
+>>> Time to create index: 116.619 ms
+--------- Searching ---------
+>>> Time to search: 7.043 ms

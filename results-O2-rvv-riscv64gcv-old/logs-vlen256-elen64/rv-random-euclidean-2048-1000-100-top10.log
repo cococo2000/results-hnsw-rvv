@@ -1,0 +1,39 @@
+warn: Setting the full_system parameter via the Simulator constructor is deprecated and will be removed in future releases of gem5. The board determines if the simulation is full system or not via it's `is_fullsystem` method.
+Global frequency set at 1000000000000 ticks per second
+warn: No dot file generated. Please install pydot to generate the dot file and pdf.
+src/arch/riscv/isa.cc:279: info: RVV enabled, VLEN = 256 bits, ELEN = 64 bits
+src/base/statistics.hh:279: warn: One of the stats is a legacy stat. Legacy stat is a stat that does not belong to any statistics::Group. Legacy stat is deprecated.
+src/base/remote_gdb.cc:418: warn: Sockets disabled, not accepting gdb connections
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Feb 18 2025 16:54:10
+gem5 started Mar 29 2025 18:24:07
+gem5 executing on zkyd151, pid 1290995
+command line: build/RISCV/gem5.opt --outdir=./output/m5out-rv-random-euclidean-2048-1000-100-top10 configs/example/bvb-board.py --resource ../build/bin/hnsw_search_riscv '--prog_args=--topk 10 --dataset /home/zxge/VDB/hnsw/data/random-euclidean-2048-1000-100.bin'
+
+info: Standard input is not a terminal, disabling listeners.
+Resource: ../build/bin/hnsw_search_riscv
+VLEN: 256
+ELEN: 64
+Program Arguments: ['--topk 10 --dataset /home/zxge/VDB/hnsw/data/random-euclidean-2048-1000-100.bin']
+Binary Path: ../build/bin/hnsw_search_riscv
+Program Arguments for Workload: ['--topk', '10', '--dataset', '/home/zxge/VDB/hnsw/data/random-euclidean-2048-1000-100.bin']
+Beginning simulation!
+src/sim/simulate.cc:199: info: Entering event queue @ 0.  Starting simulation...
+src/sim/syscall_emul.cc:97: warn: ignoring syscall set_robust_list(...)
+      (further warnings will be suppressed)
+src/sim/syscall_emul.hh:1117: warn: readlink() called on '/proc/self/exe' may yield unexpected results in various settings.
+      Returning '/home/zxge/VDB/hnsw/build/bin/hnsw_search_riscv'
+src/sim/mem_state.cc:448: info: Increasing stack size by one page.
+src/sim/syscall_emul.cc:86: warn: ignoring syscall mprotect(...)
+--------- Reading data ---------
+Read data from /home/zxge/VDB/hnsw/data/random-euclidean-2048-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 2048
+Dataset topk: 100
+>>> Time to read binary file: 0.018 ms
+--------- Creating index ---------
+>>> Time to create index: 954.817 ms
+--------- Searching ---------
+>>> Time to search: 18.494 ms

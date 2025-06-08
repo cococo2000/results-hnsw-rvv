@@ -1,0 +1,25 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Feb 18 2025 16:54:10
+gem5 started Apr 18 2025 23:41:20
+gem5 executing on zkyd151, pid 64996
+command line: build/RISCV/gem5.opt --outdir=../hifive-output/m5out-hifive-random-euclidean-512-1000-100-top100 configs/example/bvb-riscvmatched.py --resource ../hnsw_search_sifive '--prog_args=--topk 100 --dataset ../data/random-euclidean-512-1000-100.bin'
+
+info: Standard input is not a terminal, disabling listeners.
+Resource: ../hnsw_search_sifive
+Program arguments: ['--topk 100 --dataset ../data/random-euclidean-512-1000-100.bin']
+Binary Path: ../hnsw_search_sifive
+Program Arguments for Workload: ['--topk', '100', '--dataset', '../data/random-euclidean-512-1000-100.bin']
+--------- Reading data ---------
+Read data from ../data/random-euclidean-512-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 512
+Dataset topk: 100
+>>> Time to read binary file: 0.032 ms
+--------- Creating index ---------
+>>> Time to create index: 4173.677 ms
+--------- Searching ---------
+>>> Time to search: 312.689 ms
+Exiting @ tick 4487155482075 because exiting with last active thread context.

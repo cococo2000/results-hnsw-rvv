@@ -1,0 +1,10 @@
+--------- Reading data ---------
+Read data from data/random-euclidean-3072-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 3072
+Dataset topk: 100
+>>> Time to read binary file: 15.399 ms
+--------- Creating index ---------
+Using AVX512
+>>> Time to create index: 463.892 ms
+--------- Searching ---------
+>>> Time to search: 36.621 ms

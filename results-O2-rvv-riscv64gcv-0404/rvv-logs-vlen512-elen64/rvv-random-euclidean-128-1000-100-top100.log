@@ -1,0 +1,28 @@
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 24.1.0.2
+gem5 compiled Feb 18 2025 16:54:10
+gem5 started Apr  4 2025 21:13:39
+gem5 executing on zkyd151, pid 2784004
+command line: build/RISCV/gem5.opt --outdir=../rvv-output-vlen512-elen64/m5out-rvv-random-euclidean-128-1000-100-top100 configs/example/bvb-board.py --vlen 512 --elen 64 --resource ../build/bin/hnsw_search_riscv_rvv '--prog_args=--topk 100 --dataset /home/zxge/VDB/hnsw/data/random-euclidean-128-1000-100.bin'
+
+info: Standard input is not a terminal, disabling listeners.
+Resource: ../build/bin/hnsw_search_riscv_rvv
+VLEN: 512
+ELEN: 64
+Program Arguments: ['--topk 100 --dataset /home/zxge/VDB/hnsw/data/random-euclidean-128-1000-100.bin']
+Binary Path: ../build/bin/hnsw_search_riscv_rvv
+Program Arguments for Workload: ['--topk', '100', '--dataset', '/home/zxge/VDB/hnsw/data/random-euclidean-128-1000-100.bin']
+Beginning simulation!
+--------- Reading data ---------
+Read data from /home/zxge/VDB/hnsw/data/random-euclidean-128-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 128
+Dataset topk: 100
+>>> Time to read binary file: 0.018 ms
+--------- Creating index ---------
+Using RVV
+>>> Time to create index: 161.076 ms
+--------- Searching ---------
+>>> Time to search: 10.019 ms

@@ -1,0 +1,10 @@
+--------- Reading data ---------
+Read data from ./data/ag_news-384-euclidean.bin with 120000 train elements and 7600 test elements
+Dataset Dimension: 384
+Dataset topk: 100
+>>> Time to read binary file: 144.755 ms
+--------- Creating index ---------
+Using AVX
+>>> Time to create index: 143445.797 ms
+--------- Searching ---------
+>>> Time to search: 2521.158 ms
