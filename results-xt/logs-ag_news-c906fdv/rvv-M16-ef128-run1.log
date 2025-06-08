@@ -1,0 +1,10 @@
+--------- Reading data ---------
+Read data from ./data/ag_news-384-euclidean.bin with 120000 train elements and 7600 test elements
+Dataset Dimension: 384
+Dataset topk: 100
+>>> Time to read binary file: 1299.638 ms
+--------- Creating index ---------
+Using RVV
+>>> Time to create index: 995680.038 ms
+--------- Searching ---------
+>>> Time to search: 41267.760 ms

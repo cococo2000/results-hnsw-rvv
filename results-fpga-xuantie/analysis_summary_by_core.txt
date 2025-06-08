@@ -1,0 +1,7 @@
+source_file	index_reduction_mean	index_reduction_min	index_reduction_max	search_reduction_mean	search_reduction_min	search_reduction_max
+c906fdv	1.17	-3.37	4.91	1.92	-6.43	9.73
+c907fdvm	16.44	1.01	25.10	16.35	0.50	25.46
+c908v	19.87	0.78	29.36	20.07	0.88	29.66
+c920v2	14.26	-5.62	24.50	19.25	-2.05	31.00
+c920v3	14.33	-5.00	24.34	20.90	2.64	32.86
+r908fdv	13.77	0.02	20.70	13.17	-7.04	21.21

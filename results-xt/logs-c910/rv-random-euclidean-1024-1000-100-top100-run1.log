@@ -1,0 +1,16 @@
+--------- Reading data ---------
+Read data from data/random-euclidean-1024-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 1024
+Dataset topk: 100
+>>> Time to read binary file: 5.513 ms
+--------- Creating index ---------
+>>> Time to create index: 1961.601 ms
+--------- Searching ---------
+>>> Time to search: 168.561 ms
+--------- Search Quality Evaluation ---------
+Total correct: 8567
+Total comparisons: 10000
+Number of queries: 100
+Top-K: 100
+Recall@100: 85.670%
+-----------------------------------------

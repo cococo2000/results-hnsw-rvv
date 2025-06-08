@@ -2510,11 +2510,11 @@
                                 "name": "workload",
                                 "path": "board.processor.cores.core.workload",
                                 "cmd": [
-                                    "../build/bin/hnsw_search_riscv",
+                                    "../build/bin/hnsw_search_rv64gc_rv",
                                     "--topk",
                                     "100",
                                     "--dataset",
-                                    "/home/zxge/VDB/hnsw/data/random-euclidean-4096-1000-100.bin"
+                                    "../data/random-euclidean-4096-1000-100.bin"
                                 ],
                                 "cwd": "/home/zxge/VDB/hnsw/gem5",
                                 "drivers": [],
@@ -2523,7 +2523,7 @@
                                 "errout": "cerr",
                                 "euid": 100,
                                 "eventq_index": 0,
-                                "executable": "../build/bin/hnsw_search_riscv",
+                                "executable": "../build/bin/hnsw_search_rv64gc_rv",
                                 "gid": 100,
                                 "input": "cin",
                                 "kvmInSE": false,

@@ -1,0 +1,10 @@
+--------- Reading data ---------
+Read data from data/random-euclidean-128-1000-100.bin with 1000 train elements and 100 test elements
+Dataset Dimension: 128
+Dataset topk: 100
+>>> Time to read binary file: 4.167 ms
+--------- Creating index ---------
+Using RVV
+>>> Time to create index: 1668.032 ms
+--------- Searching ---------
+>>> Time to search: 144.952 ms
